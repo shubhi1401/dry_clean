@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Login from "./pages/Login";
-import Dashboard from "./components/Dashboard";
-import OrderList from "./components/OrderList";
-import CreateOrder from "./components/CreateOrder";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+import Login from ".\pages\Login";
+import Dashboard from ".\components\Dashboard";
+import OrderList from ".\components\OrderList";
+import CreateOrder from ".\components\CreateOrder";
+import Navbar from ".\components\Navbar";
+import Sidebar from ".\components\Sidebar";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(
     localStorage.getItem("isLoggedIn") === "true"
